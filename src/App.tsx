@@ -12,8 +12,7 @@ import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>Ganea Andreea</header>
+    <div className="App">
       <Profile />
     </div>
   );
