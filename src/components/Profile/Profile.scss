@@ -2,6 +2,17 @@
   color: #ffffff;
 }
 
+.logo-container {
+  display: flex;
+  align-items: self-start;
+  align-items: center;
+  padding: 1rem 0 1rem 10rem;
+
+  .logo {
+    width: 100px;
+  }
+}
+
 .about-me-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -11,49 +22,45 @@
   padding: 10px;
   margin-left: 10rem;
   column-gap: 150px;
-}
 
-.description {
-  text-align: left;
-}
+  .description {
+    text-align: left;
 
-.profile-image {
-  height: 400px;
-  border-radius: 0.5rem;
-  object-fit: scale-down;
-  // border-radius: 82px;
-  box-shadow: 0px 20px 40px 0px rgba(92, 91, 91, 0.4);
-}
+    h1 {
+      font-family: "Trirong Medium";
+    }
 
-.logo-container {
-  display: flex;
-  align-items: self-start;
-  align-items: center;
-  padding: 1rem 0 1rem 10rem;
-}
+    h4 {
+      font-family: "Amiko";
+    }
 
-.logo {
-  width: 100px;
-}
+    .button-container {
+      margin-top: 4rem;
+      justify-content: center;
+    }
 
-.button-container {
-  margin-top: 4rem;
-  justify-content: center;
-}
+    .cv-button {
+      display: inline-flex;
+      padding: 14px 32px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 100px;
+      background: #fff;
+      color: black;
+      box-shadow: 0px 12px 40px 0px rgba(255, 255, 255, 0.29);
+    }
 
-.cv-button {
-  display: inline-flex;
-  padding: 14px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 100px;
-  background: #fff;
-  color: black;
-  box-shadow: 0px 12px 40px 0px rgba(255, 255, 255, 0.29);
-}
+    .cv-button:hover {
+      cursor: pointer;
+    }
+  }
 
-.cv-button:hover {
-  cursor: pointer;
+  .profile-image {
+    height: 400px;
+    border-radius: 1rem;
+    object-fit: scale-down;
+    box-shadow: 0px 20px 40px 0px rgba(92, 91, 91, 0.4);
+  }
 }
 
 .footer-container {
