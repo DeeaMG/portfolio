@@ -1,6 +1,5 @@
 import "./Profile.scss";
 import profile from "../../assets/profile-photo.jpg";
-import logo from "../../assets/logo.png";
 
 function Profile() {
   const onDownloadCV = () => {
@@ -14,9 +13,6 @@ function Profile() {
 
   return (
     <div>
-      <div className="logo-container">
-        <img src={logo} alt="Logo" className="logo" />
-      </div>
       <div className="about-me-container">
         <div className="description">
           <h1>Designing the Web with Code & Creativity</h1>
@@ -32,9 +28,6 @@ function Profile() {
         </div>
 
         <img src={profile} alt="Profile" className="profile-image" />
-      </div>
-      <div className="footer-container">
-        <h2>Footer + Socials</h2>
       </div>
     </div>
   );

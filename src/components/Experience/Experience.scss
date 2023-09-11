@@ -1,0 +1,14 @@
+.experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  margin-left: 10rem;
+  column-gap: 150px;
+
+  .description {
+    text-align: left;
+  }
+}
